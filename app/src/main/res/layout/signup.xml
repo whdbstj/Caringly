@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Name:" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Age:" />
+
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Phone Number:" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Password:" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton" />
+
+    <TextView
+        android:id="@+id/physicallyhandicapped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Physically Handicapped" />
+
+    <TextView
+        android:id="@+id/brainlesions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Brain Lesions" />
+
+    <TextView
+        android:id="@+id/visuallyimpared"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Visually Impaired" />
+
+    <TextView
+        android:id="@+id/deaf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Deaf" />
+
+    <TextView
+        android:id="@+id/speechimpaired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speech Impaired" />
+
+    <TextView
+        android:id="@+id/intellectuallydisabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intellectually Disabled" />
+
+    <TextView
+        android:id="@+id/autisticdisorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autistic Disorder" />
+
+    <TextView
+        android:id="@+id/mentallyhandicapped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mentally Handicapped" />
+</LinearLayout>
