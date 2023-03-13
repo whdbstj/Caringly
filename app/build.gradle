@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
 }
+// local properties
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
 android {
     namespace 'cho.chloe.caringly'
@@ -14,6 +17,10 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // buildConfigFied and Manifest
+        buildConfigField "String", "MAP_API_KEY", properties ["api.key"]
+        manifestPlaceholders = [MAP_API_KEY: properties ["api.key"]]
     }
 
     buildTypes {
@@ -32,6 +39,14 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
+
+
+    //map platform
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    implementation 'com.google.android.gms:play-services-location: 18.0.0'
+    //local properties
+    implementation 'come.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1'
+
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
