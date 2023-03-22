@@ -3,12 +3,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <TextView
         android:id="@+id/match"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="40dp"
-        android:text="Match" />
+        android:text="지원사업리스트" />
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
