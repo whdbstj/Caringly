@@ -1,10 +1,7 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
-// local properties
-Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
-
 
 android {
     namespace 'cho.chloe.caringly'
@@ -18,10 +15,6 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
-        // buildConfigFied and Manifest
-        buildConfigField "String", "MAP_API_KEY", properties["api.key"]
-        manifestPlaceholders = [MAP_API_KEY: properties["api.key"]]
     }
 
     buildTypes {
@@ -42,7 +35,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.7.0'
 
     //map platform
-    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
     implementation 'com.google.android.gms:play-services-location:18.0.0'
     // local properties
     implementation 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1'
