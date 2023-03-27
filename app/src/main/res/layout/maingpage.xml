@@ -2,13 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/yellow">
 
     <Button
         android:id="@+id/assistant"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Assistant" />
+        android:text="Assistant"
+        android:backgroundTint="@color/blue"/>
 
     <Button
         android:id="@+id/match"
