@@ -6,13 +6,6 @@
     android:gravity="center"
     android:background="@color/yellow">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:backgroundTint="@color/blue"/>
-
     <TextView
         android:id="@+id/Login"
         android:layout_width="match_parent"
@@ -64,6 +57,28 @@
                 android:layout_height="wrap_content"
                 android:hint="hint" />
         </com.google.android.material.textfield.TextInputLayout>
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/Loginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="OR" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Sign Up" />
 
 </LinearLayout>
