@@ -1,51 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/yellow">
+    android:background="@color/yellow"
+    android:padding="20dp">
 
     <TextView
         android:id="@+id/match"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="40dp"
-        android:text="Match" />
+        android:text="Match"
+        android:textSize="30dp"/>
 
-    <TextView
-        android:id="@+id/match_name"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/human"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name:" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/textView3"
+        <TextView
+            android:id="@+id/match_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chloe"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Age:" />
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
 
-    <TextView
-        android:id="@+id/textView4"
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="19"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Experience:" />
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
 
-    <TextView
-        android:id="@+id/textView5"
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Experience:"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="yes"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Certification:" />
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
 
-    <TextView
-        android:id="@+id/textView6"
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Certification:"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="certificate"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Affiliate" />
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
 
-    <TextView
-        android:id="@+id/textView7"
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Affiliate:"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="dis"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contact" />
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Contact:"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="010100000"
+            android:textSize="20dp"/>
+    </LinearLayout>
 
 </LinearLayout>

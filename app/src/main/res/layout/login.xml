@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/yellow">
+    android:background="@color/yellow"
+    android:padding="20dp">
 
     <TextView
         android:id="@+id/Login"
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:padding="30dp"
         android:gravity="center"
-        android:textSize="30dp"
+        android:textSize="40dp"
         android:text="Login" />
 
     <LinearLayout
@@ -22,9 +23,10 @@
 
         <TextView
             android:id="@+id/Name"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Name" />
+            android:text="Name"
+            android:textSize="20dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -33,7 +35,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="hint" />
+                android:hint="name" />
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
@@ -44,9 +46,10 @@
 
         <TextView
             android:id="@+id/Password"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Password" />
+            android:text="Password"
+            android:textSize="20dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -55,7 +58,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="hint" />
+                android:hint="password" />
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>

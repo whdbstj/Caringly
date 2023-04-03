@@ -24,9 +24,9 @@ public class List extends AppCompatActivity {
         ListViewAdapter adapter = new ListViewAdapter();
 
         //Adapter 안에 아이템의 정보 담기
-        adapter.addItem(new Item("1", "item1"));
-        adapter.addItem(new Item("2", "item2"));
-        adapter.addItem(new Item("3", "item3"));
+        adapter.addItem(new Item("1", "UNIVERSITY OF MARYLAND GLOBAL CAMPUS"));
+        adapter.addItem(new Item("2", "Best Universities"));
+        adapter.addItem(new Item("3", "Montclair State University"));
 
         //리스트뷰에 Adapter 설정
         listview.setAdapter(adapter);

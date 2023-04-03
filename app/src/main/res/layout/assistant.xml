@@ -5,20 +5,30 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/assistant_page_layout">
+    android:id="@+id/assistant_page_layout"
+    android:background="@color/yellow"
+    android:padding="20dp">
 
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Assistant"
+        android:textSize="30dp"/>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/mapFrag"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        tools:context=".Assistant" />
+        tools:context=".Assistant"  />
 
     <Button
         android:id="@+id/call"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Call" />
+        android:text="Call"
+        android:backgroundTint="@color/blue"/>
 
 </LinearLayout>

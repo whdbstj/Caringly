@@ -4,12 +4,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/yellow">
+    android:background="@color/yellow"
+    android:padding="20dp">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="300dp"
         app:srcCompat="@mipmap/ic_main"
         android:padding="30dp"/>
 
