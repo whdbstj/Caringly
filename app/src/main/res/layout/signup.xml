@@ -1,181 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/yellow">
+    android:background="@color/yellow"
+    android:padding="20dp"
+    >
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Name:" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="hint" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Age:" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="hint" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phonenumber"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Phone Number:" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="hint" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Email:" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="hint" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Password:" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="hint" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
 
         <TextView
-            android:id="@+id/name"
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:padding="20dp"
-            android:text="Name:" />
-
-        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/type"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/age"
-            android:layout_width="140dp"
             android:layout_height="wrap_content"
-            android:padding="20dp"
-            android:text="Age:" />
+            android:padding="10dp"
+            android:text="Disabled Type" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <RadioButton
+            android:id="@+id/physicallyhandicapped"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/phonenumber"
-            android:layout_width="140dp"
             android:layout_height="wrap_content"
-            android:padding="20dp"
-            android:text="Phone Number:" />
+            android:text="Physically Handicapped" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <RadioButton
+            android:id="@+id/brainlesions"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/email"
-            android:layout_width="140dp"
             android:layout_height="wrap_content"
-            android:padding="20dp"
-            android:text="Email:" />
+            android:text="Brain Lesions" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <RadioButton
+            android:id="@+id/visuallyimpared"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/password"
-            android:layout_width="140dp"
             android:layout_height="wrap_content"
-            android:padding="20dp"
-            android:text="Password:" />
+            android:text="Visually Impred" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <RadioButton
+            android:id="@+id/deaf"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:text="Deaf" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
+        <RadioButton
+            android:id="@+id/speechimpaired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speech Impaired" />
 
+        <RadioButton
+            android:id="@+id/intellectuallydisabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intellectually Disabled" />
+
+        <RadioButton
+            android:id="@+id/autisticdisorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Autistic Disorder" />
+
+        <RadioButton
+            android:id="@+id/mentallyhandicapped"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mentally Handicapped" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:backgroundTint="@color/blue"/>
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/type"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:text="Disabled Type" />
-
-    <RadioButton
-        android:id="@+id/physicallyhandicapped"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Physically Handicapped" />
-
-    <RadioButton
-        android:id="@+id/brainlesions"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Brain Lesions" />
-
-    <RadioButton
-        android:id="@+id/visuallyimpared"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Visually Impred" />
-
-    <RadioButton
-        android:id="@+id/deaf"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Deaf" />
-
-    <RadioButton
-        android:id="@+id/speechimpaired"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Speech Impaired" />
-
-    <RadioButton
-        android:id="@+id/intellectuallydisabled"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Intellectually Disabled" />
-
-    <RadioButton
-        android:id="@+id/autisticdisorder"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Autistic Disorder" />
-
-    <RadioButton
-        android:id="@+id/mentallyhandicapped"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Mentally Handicapped" />
-</LinearLayout>
+</ScrollView>
