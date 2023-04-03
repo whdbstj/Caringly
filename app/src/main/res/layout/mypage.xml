@@ -4,4 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/myinformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Information"
+        android:padding="30dp"
+        android:textSize="30dp"/>
 </LinearLayout>
