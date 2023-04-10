@@ -10,28 +10,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="30dp"
-        android:text="About us intro" />
+        android:text="Caringly is a nonprofit business that is focused on aiding providing a convenient and efficient support system for the disabled population in South Korea. We aim to improve the quality of life for this community by creating a platform that connects the disabled with their own community.
+" />
 
     <TextView
         android:id="@+id/whatwedo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="30dp"
-        android:text="What we do\nWhy its made" />
+        android:text="Our mission is to create a world where disabled individuals can live their lives to the fullest by providing a reliable and convenient platform for them to access assistance for any and all situations. Currently in South Korea, the disabled population often face challenges in accessing adequate help efficiently. This is a result of several factors, such as a lack of accessible infrastructure and transportation, trained professionals in disability services, and a great number of negative cultural stigmas surrounding disability." />
 
     <TextView
         android:id="@+id/whyitsmade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="30dp"
-        android:text="why its made" />
-
-    <TextView
-        android:id="@+id/etc"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="30dp"
-        android:text="etc" />
+        android:text="The business was created in order to target these issues mentioned above. We felt that Korea was lacking in tackling these issues and avid supporters of equal human rights, we decided to develop this mobile application. ‘Caringly’ will assist the disabled people to meet workers that value them and will help them with everyday roadblocks and obstacles when needed in the immediate future. A community and true relationships will be formed with further usage of this application. In terms of future goals, we plan on connecting the application to real life services. " />
 
     <TextView
         android:id="@+id/contact"
@@ -39,4 +33,16 @@
         android:layout_height="wrap_content"
         android:padding="80dp"
         android:text="Contact:" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chloe: choevie080317@gmail.com" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenna: jennak166@gmail.com" />
 </LinearLayout>
