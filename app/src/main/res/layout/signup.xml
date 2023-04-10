@@ -32,7 +32,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:hint="name" />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
 
@@ -55,7 +55,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:hint="age" />
             </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
@@ -79,7 +79,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:hint="phone numbet" />
             </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
@@ -103,7 +103,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:hint="email" />
             </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
@@ -127,7 +127,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:hint="password" />
             </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>

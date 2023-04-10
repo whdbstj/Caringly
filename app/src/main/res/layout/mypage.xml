@@ -17,12 +17,10 @@
         android:textSize="30dp"/>
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        tools:srcCompat="@drawable/human2"
-        android:layout_gravity="center"
-        android:layout_marginBottom="30dp"/>
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/human" />
 
     <LinearLayout
         android:layout_width="match_parent"

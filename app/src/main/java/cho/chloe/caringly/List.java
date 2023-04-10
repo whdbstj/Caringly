@@ -1,6 +1,8 @@
 package cho.chloe.caringly;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,9 +26,9 @@ public class List extends AppCompatActivity {
         ListViewAdapter adapter = new ListViewAdapter();
 
         //Adapter 안에 아이템의 정보 담기
-        adapter.addItem(new Item("1", "UNIVERSITY OF MARYLAND GLOBAL CAMPUS"));
-        adapter.addItem(new Item("2", "Best Universities"));
-        adapter.addItem(new Item("3", "Montclair State University"));
+        adapter.addItem(new Item("1", "UNIVERSITY OF MARYLAND GLOBAL CAMPUS", "https://www.umgc.edu/blog/flexible-education-students-disabilities"));
+        adapter.addItem(new Item("2", "Best Universities", "https://best-universities.net/resources/online-college-learning-for-students-with-disabilities/"));
+        adapter.addItem(new Item("3", "Montclair State University", "https://www.montclair.edu/online/virtual-learning-for-students-with-disabilities-certificate-online/"));
 
         //리스트뷰에 Adapter 설정
         listview.setAdapter(adapter);
@@ -74,6 +76,8 @@ public class List extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     Toast.makeText(context, item.getNum()+" "+item.getName()+" clicked!", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(item.getUrl()));
+                    startActivity(intent);
                 }
             });
 
