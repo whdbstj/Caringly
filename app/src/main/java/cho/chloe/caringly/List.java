@@ -29,6 +29,10 @@ public class List extends AppCompatActivity {
         adapter.addItem(new Item("1", "UNIVERSITY OF MARYLAND GLOBAL CAMPUS", "https://www.umgc.edu/blog/flexible-education-students-disabilities"));
         adapter.addItem(new Item("2", "Best Universities", "https://best-universities.net/resources/online-college-learning-for-students-with-disabilities/"));
         adapter.addItem(new Item("3", "Montclair State University", "https://www.montclair.edu/online/virtual-learning-for-students-with-disabilities-certificate-online/"));
+        adapter.addItem(new Item("4", "Online Bachelor Degrees", "https://www.online-bachelor-degrees.com/online-learning-benefits-disabled-student/"));
+        adapter.addItem(new Item("5", "IDEA", "https://sites.ed.gov/idea/"));
+
+
 
         //리스트뷰에 Adapter 설정
         listview.setAdapter(adapter);
