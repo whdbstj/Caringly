@@ -19,8 +19,9 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/human2" />
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/human2"
+        android:paddingBottom="20dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -31,18 +31,7 @@
         android:id="@+id/contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="80dp"
-        android:text="Contact:" />
+        android:paddingHorizontal="30dp"
+        android:text="Contact: Chloe: choevie080317@gmail.com\nJenna: jennak166@gmail.com" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Chloe: choevie080317@gmail.com" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Jenna: jennak166@gmail.com" />
 </LinearLayout>
